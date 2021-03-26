@@ -13,18 +13,17 @@ using System.Drawing;
 
 namespace PJSHRM
 {
-    class Memu
+    class DB_CONNECT
     {
-        OracleConnection con = null;
-        string connectString = "Data source = 222.237.134.74:1522/ora7;User id=edu;Password=edu1234;";
-        OracleCommand cmd = null;
+        public static OracleConnection con = null;
+        public string connectString = "Data source = 222.237.134.74:1522/ora7;User id=edu;Password=edu1234;";
+        public static OracleCommand cmd = null;
+
+        public static OracleDataReader rs;
+        public static OracleDataReader rs2;
 
 
-        OracleDataReader rs;
-        OracleDataReader rs2;
-
-
-        public Memu()
+        public DB_CONNECT()
         {
             try
             {
@@ -52,6 +51,36 @@ namespace PJSHRM
 
 
         }
+
+
+        public void checking_connect()
+        {
+            try
+            {
+
+                if (con == null)
+                {
+                    MessageBox.Show("시스템에 문제가 있으니 담당자 연락바람");
+
+                }
+                if (cmd == null)
+                {
+                    MessageBox.Show("시스템에 문제가 있으니 담당자 연락바람");
+                }
+
+            }
+            catch (Exception er)
+            {
+                MessageBox.Show(er.ToString());
+            }
+
+        }
+
+
+
+
+
+
 
 
     }

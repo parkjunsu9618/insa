@@ -16,7 +16,7 @@ namespace PJSHRM
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Application.Run(new PJSsub001());
             //Application.Run(new LoginForm());
             //Application.Run(new PJSsub004());
         }

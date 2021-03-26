@@ -72,7 +72,7 @@ namespace PJSHRM
             serchBtn.Enabled = true;
 
             changeBtn.Enabled = false;
-            deleteBtn.Enabled = false;
+            
             confirmBtn.Enabled = true;
             canselBtn.Enabled = true;
 
@@ -82,7 +82,7 @@ namespace PJSHRM
             serchBtn.Enabled = true;
 
             changeBtn.Enabled = true;
-            deleteBtn.Enabled = true;
+            
             confirmBtn.Enabled = false;
             canselBtn.Enabled = false;
 
@@ -91,7 +91,7 @@ namespace PJSHRM
         {
             serchBtn.Enabled = false;
             changeBtn.Enabled = false;
-            deleteBtn.Enabled = false;
+            
             confirmBtn.Enabled = false;
             canselBtn.Enabled = false;
 
@@ -464,20 +464,6 @@ namespace PJSHRM
         //-------------------------------------------------------------------------------------------------------------------------------------
         //-------------------------------------------------------------------------------------------------------------------------------------        
         #endregion
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -24,8 +24,6 @@ namespace PJSHRM
 
 
 
-
-
         //변수지정
         OracleConnection con = null;
         string connectString = "Data source = 222.237.134.74:1522/ora7;User id=edu;Password=edu1234;";
@@ -75,7 +73,7 @@ namespace PJSHRM
         /// <param name="item_date"></param>
         /// <param name="item_date2"></param>
         /// <returns></returns>
-        public List<Dictionary<string, string>> serch(string item_code, string item_name, string item_date, string item_date2)
+        public List<Dictionary<string, string>> getMenu(string item_code, string item_name, string item_date, string item_date2)
         {
 
             try
@@ -88,8 +86,6 @@ namespace PJSHRM
 
                 //가공하기
                 List<Dictionary<String, String>> item_values = new List<Dictionary<String, String>>();
-
-
 
 
 

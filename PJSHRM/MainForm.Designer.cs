@@ -29,51 +29,49 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("그룹코드관리");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("일반코드관리");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("부서코드관리");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("코드관리", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode3});
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("인사기본사항");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("인사변동사항");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("가족사항");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("학력사항");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("수상경력");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("경력사항");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("자격면허");
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("외국어");
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("인사기록조회(통합)");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("인사기록관리", new System.Windows.Forms.TreeNode[] {
-            treeNode5,
-            treeNode6,
-            treeNode7,
-            treeNode8,
-            treeNode9,
-            treeNode10,
-            treeNode11,
-            treeNode12,
-            treeNode13});
+            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("그룹코드관리");
+            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("일반코드관리");
+            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("부서코드관리");
+            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("코드관리", new System.Windows.Forms.TreeNode[] {
+            treeNode43,
+            treeNode44,
+            treeNode45});
+            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("인사기본사항");
+            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("인사변동사항");
+            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("가족사항");
+            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("학력사항");
+            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("수상경력");
+            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("경력사항");
+            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("자격면허");
+            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("외국어");
+            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("인사기록조회(통합)");
+            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("인사기록관리", new System.Windows.Forms.TreeNode[] {
+            treeNode47,
+            treeNode48,
+            treeNode49,
+            treeNode50,
+            treeNode51,
+            treeNode52,
+            treeNode53,
+            treeNode54,
+            treeNode55});
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.InfoPanel = new System.Windows.Forms.Panel();
             this.adminName = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.FunctionPanel = new System.Windows.Forms.Panel();
-            this.checkingNew = new System.Windows.Forms.CheckBox();
             this.label_hint = new System.Windows.Forms.Label();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.serchBtn = new FontAwesome.Sharp.IconButton();
             this.canselBtn = new FontAwesome.Sharp.IconButton();
             this.changeBtn = new FontAwesome.Sharp.IconButton();
             this.confirmBtn = new FontAwesome.Sharp.IconButton();
-            this.deleteBtn = new FontAwesome.Sharp.IconButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.mainTap = new System.Windows.Forms.TabControl();
             this.mainPage = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.checkingNew = new System.Windows.Forms.CheckBox();
             this.MainTree = new System.Windows.Forms.TreeView();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
@@ -84,6 +82,7 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.ㅇㅇㅇToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.즐겨찾기메뉴ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.tableLayoutPanel1.SuspendLayout();
             this.InfoPanel.SuspendLayout();
             this.FunctionPanel.SuspendLayout();
@@ -92,6 +91,7 @@
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -158,28 +158,16 @@
             this.FunctionPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.FunctionPanel.Controls.Add(this.checkingNew);
+            this.FunctionPanel.Controls.Add(this.iconButton2);
             this.FunctionPanel.Controls.Add(this.label_hint);
-            this.FunctionPanel.Controls.Add(this.iconButton1);
             this.FunctionPanel.Controls.Add(this.serchBtn);
             this.FunctionPanel.Controls.Add(this.canselBtn);
             this.FunctionPanel.Controls.Add(this.changeBtn);
             this.FunctionPanel.Controls.Add(this.confirmBtn);
-            this.FunctionPanel.Controls.Add(this.deleteBtn);
             this.FunctionPanel.Location = new System.Drawing.Point(194, 3);
             this.FunctionPanel.Name = "FunctionPanel";
             this.FunctionPanel.Size = new System.Drawing.Size(987, 38);
             this.FunctionPanel.TabIndex = 32;
-            // 
-            // checkingNew
-            // 
-            this.checkingNew.AutoSize = true;
-            this.checkingNew.Location = new System.Drawing.Point(13, 14);
-            this.checkingNew.Name = "checkingNew";
-            this.checkingNew.Size = new System.Drawing.Size(96, 16);
-            this.checkingNew.TabIndex = 56;
-            this.checkingNew.Text = "새창으로열기";
-            this.checkingNew.UseVisualStyleBackColor = true;
             // 
             // label_hint
             // 
@@ -193,23 +181,6 @@
             this.label_hint.TabIndex = 1;
             this.label_hint.Text = "label1";
             // 
-            // iconButton1
-            // 
-            this.iconButton1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconButton1.FlatAppearance.BorderSize = 0;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Star;
-            this.iconButton1.IconColor = System.Drawing.Color.Black;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.IconSize = 25;
-            this.iconButton1.Location = new System.Drawing.Point(700, 7);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(25, 25);
-            this.iconButton1.TabIndex = 55;
-            this.iconButton1.UseVisualStyleBackColor = true;
-            // 
             // serchBtn
             // 
             this.serchBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -220,7 +191,7 @@
             this.serchBtn.IconColor = System.Drawing.Color.Black;
             this.serchBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.serchBtn.IconSize = 25;
-            this.serchBtn.Location = new System.Drawing.Point(750, 7);
+            this.serchBtn.Location = new System.Drawing.Point(732, 7);
             this.serchBtn.Name = "serchBtn";
             this.serchBtn.Size = new System.Drawing.Size(25, 25);
             this.serchBtn.TabIndex = 55;
@@ -237,7 +208,7 @@
             this.canselBtn.IconColor = System.Drawing.Color.Red;
             this.canselBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.canselBtn.IconSize = 25;
-            this.canselBtn.Location = new System.Drawing.Point(950, 7);
+            this.canselBtn.Location = new System.Drawing.Point(880, 7);
             this.canselBtn.Name = "canselBtn";
             this.canselBtn.Size = new System.Drawing.Size(25, 25);
             this.canselBtn.TabIndex = 17;
@@ -255,7 +226,7 @@
             this.changeBtn.IconColor = System.Drawing.Color.Black;
             this.changeBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.changeBtn.IconSize = 25;
-            this.changeBtn.Location = new System.Drawing.Point(800, 7);
+            this.changeBtn.Location = new System.Drawing.Point(782, 7);
             this.changeBtn.Name = "changeBtn";
             this.changeBtn.Size = new System.Drawing.Size(25, 25);
             this.changeBtn.TabIndex = 20;
@@ -273,28 +244,11 @@
             this.confirmBtn.IconColor = System.Drawing.Color.Green;
             this.confirmBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.confirmBtn.IconSize = 25;
-            this.confirmBtn.Location = new System.Drawing.Point(900, 7);
+            this.confirmBtn.Location = new System.Drawing.Point(830, 7);
             this.confirmBtn.Name = "confirmBtn";
             this.confirmBtn.Size = new System.Drawing.Size(25, 25);
             this.confirmBtn.TabIndex = 18;
             this.confirmBtn.UseVisualStyleBackColor = true;
-            // 
-            // deleteBtn
-            // 
-            this.deleteBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.deleteBtn.FlatAppearance.BorderSize = 0;
-            this.deleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.deleteBtn.Font = new System.Drawing.Font("굴림", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.deleteBtn.IconChar = FontAwesome.Sharp.IconChar.TrashAlt;
-            this.deleteBtn.IconColor = System.Drawing.Color.Black;
-            this.deleteBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.deleteBtn.IconSize = 25;
-            this.deleteBtn.Location = new System.Drawing.Point(850, 7);
-            this.deleteBtn.Name = "deleteBtn";
-            this.deleteBtn.Size = new System.Drawing.Size(25, 25);
-            this.deleteBtn.TabIndex = 19;
-            this.deleteBtn.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -366,6 +320,16 @@
             this.tabPage1.Text = "메뉴";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // checkingNew
+            // 
+            this.checkingNew.AutoSize = true;
+            this.checkingNew.Location = new System.Drawing.Point(13, 16);
+            this.checkingNew.Name = "checkingNew";
+            this.checkingNew.Size = new System.Drawing.Size(96, 16);
+            this.checkingNew.TabIndex = 56;
+            this.checkingNew.Text = "새창으로열기";
+            this.checkingNew.UseVisualStyleBackColor = true;
+            // 
             // MainTree
             // 
             this.MainTree.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -376,51 +340,51 @@
             this.MainTree.LineColor = System.Drawing.Color.Gray;
             this.MainTree.Location = new System.Drawing.Point(3, 3);
             this.MainTree.Name = "MainTree";
-            treeNode1.Name = "그룹코드관리";
-            treeNode1.Tag = "PJSsub001";
-            treeNode1.Text = "그룹코드관리";
-            treeNode2.Name = "일반코드관리";
-            treeNode2.Tag = "PJSsub002";
-            treeNode2.Text = "일반코드관리";
-            treeNode3.Name = "부서코드관리";
-            treeNode3.Tag = "PJSsub003";
-            treeNode3.Text = "부서코드관리";
-            treeNode4.Name = "codeNode";
-            treeNode4.Tag = "";
-            treeNode4.Text = "코드관리";
-            treeNode5.Name = "인사기본사항";
-            treeNode5.Tag = "PJSsub004";
-            treeNode5.Text = "인사기본사항";
-            treeNode6.Name = "인사변동사항";
-            treeNode6.Tag = "PJSsub005";
-            treeNode6.Text = "인사변동사항";
-            treeNode7.Name = "가족사항";
-            treeNode7.Tag = "PJSsub006";
-            treeNode7.Text = "가족사항";
-            treeNode8.Name = "학력사항";
-            treeNode8.Tag = "PJSsub007";
-            treeNode8.Text = "학력사항";
-            treeNode9.Name = "수상경력";
-            treeNode9.Tag = "PJSsub008";
-            treeNode9.Text = "수상경력";
-            treeNode10.Name = "경력사항";
-            treeNode10.Tag = "PJSsub009";
-            treeNode10.Text = "경력사항";
-            treeNode11.Name = "자격면허";
-            treeNode11.Tag = "PJSsub010";
-            treeNode11.Text = "자격면허";
-            treeNode12.Name = "외국어";
-            treeNode12.Tag = "PJSsub011";
-            treeNode12.Text = "외국어";
-            treeNode13.Name = "인사기록조회(통합)";
-            treeNode13.Tag = "PJSsub012";
-            treeNode13.Text = "인사기록조회(통합)";
-            treeNode14.Name = "basicInsaNode";
-            treeNode14.Tag = "";
-            treeNode14.Text = "인사기록관리";
+            treeNode43.Name = "그룹코드관리";
+            treeNode43.Tag = "PJSsub001";
+            treeNode43.Text = "그룹코드관리";
+            treeNode44.Name = "일반코드관리";
+            treeNode44.Tag = "PJSsub002";
+            treeNode44.Text = "일반코드관리";
+            treeNode45.Name = "부서코드관리";
+            treeNode45.Tag = "PJSsub003";
+            treeNode45.Text = "부서코드관리";
+            treeNode46.Name = "codeNode";
+            treeNode46.Tag = "";
+            treeNode46.Text = "코드관리";
+            treeNode47.Name = "인사기본사항";
+            treeNode47.Tag = "PJSsub004";
+            treeNode47.Text = "인사기본사항";
+            treeNode48.Name = "인사변동사항";
+            treeNode48.Tag = "PJSsub005";
+            treeNode48.Text = "인사변동사항";
+            treeNode49.Name = "가족사항";
+            treeNode49.Tag = "PJSsub006";
+            treeNode49.Text = "가족사항";
+            treeNode50.Name = "학력사항";
+            treeNode50.Tag = "PJSsub007";
+            treeNode50.Text = "학력사항";
+            treeNode51.Name = "수상경력";
+            treeNode51.Tag = "PJSsub008";
+            treeNode51.Text = "수상경력";
+            treeNode52.Name = "경력사항";
+            treeNode52.Tag = "PJSsub009";
+            treeNode52.Text = "경력사항";
+            treeNode53.Name = "자격면허";
+            treeNode53.Tag = "PJSsub010";
+            treeNode53.Text = "자격면허";
+            treeNode54.Name = "외국어";
+            treeNode54.Tag = "PJSsub011";
+            treeNode54.Text = "외국어";
+            treeNode55.Name = "인사기록조회(통합)";
+            treeNode55.Tag = "PJSsub012";
+            treeNode55.Text = "인사기록조회(통합)";
+            treeNode56.Name = "basicInsaNode";
+            treeNode56.Tag = "";
+            treeNode56.Text = "인사기록관리";
             this.MainTree.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode4,
-            treeNode14});
+            treeNode46,
+            treeNode56});
             this.MainTree.Size = new System.Drawing.Size(171, 641);
             this.MainTree.TabIndex = 27;
             this.MainTree.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.MainTree_NodeMouseClick);
@@ -447,6 +411,7 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.checkingNew);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
@@ -467,8 +432,8 @@
             // 
             this.message.AutoSize = true;
             this.message.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.message.ForeColor = System.Drawing.Color.Red;
-            this.message.Location = new System.Drawing.Point(163, 7);
+            this.message.ForeColor = System.Drawing.Color.Black;
+            this.message.Location = new System.Drawing.Point(123, 9);
             this.message.Name = "message";
             this.message.Size = new System.Drawing.Size(189, 17);
             this.message.TabIndex = 25;
@@ -480,7 +445,7 @@
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.Location = new System.Drawing.Point(49, 4);
+            this.materialLabel1.Location = new System.Drawing.Point(23, 6);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             this.materialLabel1.Size = new System.Drawing.Size(82, 19);
@@ -507,6 +472,22 @@
             this.즐겨찾기메뉴ToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.즐겨찾기메뉴ToolStripMenuItem.Text = "즐겨찾기메뉴";
             // 
+            // iconButton2
+            // 
+            this.iconButton2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconButton2.FlatAppearance.BorderSize = 0;
+            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.PowerOff;
+            this.iconButton2.IconColor = System.Drawing.Color.Red;
+            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton2.IconSize = 25;
+            this.iconButton2.Location = new System.Drawing.Point(942, 8);
+            this.iconButton2.Name = "iconButton2";
+            this.iconButton2.Size = new System.Drawing.Size(25, 25);
+            this.iconButton2.TabIndex = 57;
+            this.iconButton2.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -527,6 +508,8 @@
             this.panel2.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.contextMenuStrip1.ResumeLayout(false);
@@ -539,12 +522,10 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel FunctionPanel;
         private System.Windows.Forms.Label label_hint;
-        private FontAwesome.Sharp.IconButton iconButton1;
         private FontAwesome.Sharp.IconButton serchBtn;
         private FontAwesome.Sharp.IconButton canselBtn;
         private FontAwesome.Sharp.IconButton changeBtn;
         private FontAwesome.Sharp.IconButton confirmBtn;
-        private FontAwesome.Sharp.IconButton deleteBtn;
         private System.Windows.Forms.Panel InfoPanel;
         private MaterialSkin.Controls.MaterialLabel adminName;
         private MaterialSkin.Controls.MaterialLabel materialLabel3;
@@ -565,5 +546,6 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem 즐겨찾기메뉴ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ㅇㅇㅇToolStripMenuItem;
+        private FontAwesome.Sharp.IconButton iconButton2;
     }
 }
